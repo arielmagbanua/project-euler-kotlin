@@ -7,5 +7,11 @@ fun main(args: Array<String>){
 }
 
 fun showSolution(problemNumber: Int){
-    println("No solution for this problem yet!")
+
+    when(problemNumber){
+        1 -> print(problemNumber)
+        else -> {
+            println("No solution for this problem yet!")
+        }
+    }
 }
