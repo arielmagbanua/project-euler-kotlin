@@ -13,8 +13,14 @@ fun showSolution(problemNumber: Int){
             val problem = Problem1()
             print("Enter a Number: ")
             val(num) = readLine()!!.split(' ').map(String::toInt)
-
             val answer = problem.solve(num)
+            println("Answer: $answer")
+        }
+        2 -> {
+            val problem = Problem2()
+            val testValue: Int = 4000000
+            println("Term < $testValue \n")
+            val answer = problem.solve(testValue)
             println("Answer: $answer")
         }
         else -> {
