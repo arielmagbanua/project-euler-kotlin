@@ -23,6 +23,13 @@ fun showSolution(problemNumber: Int){
             val answer = problem.solve(testValue)
             println("Answer: $answer")
         }
+        3 -> {
+            val problem = Problem3()
+            print("Enter a Number: ")
+            val(num) = readLine()!!.split(' ').map(String::toLong)
+            val answer = problem.solve(num)
+            println("The largest prime factor of the number $num is $answer")
+        }
         else -> {
             println("No solution for this problem yet!")
         }
