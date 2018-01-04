@@ -30,6 +30,11 @@ fun showSolution(problemNumber: Int){
             val answer = problem.solve(num)
             println("The largest prime factor of the number $num is $answer")
         }
+        4 -> {
+            val problem = Problem4()
+            var largestNumber = problem.solve()
+            println("The largest palindrome made from the product of two 3-digit numbers is $largestNumber")
+        }
         else -> {
             println("No solution for this problem yet!")
         }
