@@ -45,6 +45,11 @@ fun showSolution(problemNumber: Int){
             val answer = problem.solve()
             println("Difference: $answer")
         }
+        7 -> {
+            val problem = Problem7()
+            val answer = problem.solve()
+            println("The 10001st prime number is $answer")
+        }
         else -> {
             println("No solution for this problem yet!")
         }
