@@ -11,8 +11,8 @@
 
 class Problem2{
     fun solve(paramNum: Int): Long {
-        var firstNum: Int = 0
-        var secondNum: Int = 1
+        var firstNum = 0
+        var secondNum = 1
         var temp: Int
         var evenSum: Long = 0
 

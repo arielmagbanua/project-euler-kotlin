@@ -43,10 +43,6 @@ class Problem3 {
 
         loop@ for(n in 2..paramNum){
 
-            // println("$n")
-            // val haller = paramNum%n
-            // println("paramNum%n = $haller")
-
             if(paramNum%n==0L && n<paramNum){
                 isPrime = false
                 break@loop
