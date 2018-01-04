@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7795747-47be-46db-8f10-b35e16194c0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Problem7.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Problem8.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/project-euler-kotlin/AppMainKt.class" afterPath="$PROJECT_DIR$/out/production/project-euler-kotlin/AppMainKt.class" />
       <change beforePath="$PROJECT_DIR$/src/AppMain.kt" afterPath="$PROJECT_DIR$/src/AppMain.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppMain.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppMain.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppMain.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+            <state relative-caret-position="417">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem8.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem8.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/Problem6.kt" />
         <option value="$PROJECT_DIR$/src/Problem7.kt" />
         <option value="$PROJECT_DIR$/src/AppMain.kt" />
+        <option value="$PROJECT_DIR$/src/Problem8.kt" />
       </list>
     </option>
   </component>
@@ -263,7 +273,7 @@
       <workItem from="1513675792300" duration="322000" />
       <workItem from="1513733399069" duration="274000" />
       <workItem from="1514959956536" duration="5900000" />
-      <workItem from="1515055777380" duration="4271000" />
+      <workItem from="1515055777380" duration="4494000" />
     </task>
     <task id="LOCAL-00001" summary="Solved the problem 3.">
       <created>1514968665136</created>
@@ -300,11 +310,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515059452724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added problem 7">
+      <created>1515060072472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515060072472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13740000" />
+    <option name="totallyTimeSpent" value="13963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -348,7 +365,8 @@
     <MESSAGE value="Added problem 4" />
     <MESSAGE value="Added problem 5" />
     <MESSAGE value="Added problem 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added problem 6" />
+    <MESSAGE value="Added problem 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added problem 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,8 +542,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppMain.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="50" column="39" lean-forward="false" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        <state relative-caret-position="417">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem8.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>

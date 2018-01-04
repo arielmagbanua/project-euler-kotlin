@@ -50,6 +50,9 @@ fun showSolution(problemNumber: Int){
             val answer = problem.solve()
             println("The 10001st prime number is $answer")
         }
+        8 -> {
+
+        }
         else -> {
             println("No solution for this problem yet!")
         }
