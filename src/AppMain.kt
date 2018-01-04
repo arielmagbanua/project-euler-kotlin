@@ -32,8 +32,13 @@ fun showSolution(problemNumber: Int){
         }
         4 -> {
             val problem = Problem4()
-            var largestNumber = problem.solve()
+            val largestNumber = problem.solve()
             println("The largest palindrome made from the product of two 3-digit numbers is $largestNumber")
+        }
+        5 -> {
+            val problem = Problem5()
+            val answer = problem.solve()
+            println("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is $answer")
         }
         else -> {
             println("No solution for this problem yet!")
