@@ -40,6 +40,11 @@ fun showSolution(problemNumber: Int){
             val answer = problem.solve()
             println("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is $answer")
         }
+        6 -> {
+            val problem = Problem6()
+            val answer = problem.solve()
+            println("Difference: $answer")
+        }
         else -> {
             println("No solution for this problem yet!")
         }
