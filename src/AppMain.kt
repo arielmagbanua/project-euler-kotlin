@@ -55,6 +55,11 @@ fun showSolution(problemNumber: Int){
             val answer = problem.solve()
             println("Largest Product of 13 adjacent numbers is $answer")
         }
+        9 -> {
+            val problem = Problem9()
+            val answer = problem.solve()
+            println("Product: $answer")
+        }
         else -> {
             println("No solution for this problem yet!")
         }
