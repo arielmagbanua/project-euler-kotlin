@@ -66,7 +66,8 @@ fun showSolution(problemNumber: Int){
             println("Sum: $answer")
         }
         11 -> {
-
+            val problem = Problem11()
+            val answer = problem.solve()
         }
         else -> {
             println("No solution for this problem yet!")
