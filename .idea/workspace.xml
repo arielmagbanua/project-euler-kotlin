@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f7795747-47be-46db-8f10-b35e16194c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/AppMain.kt" afterPath="$PROJECT_DIR$/src/AppMain.kt" />
       <change beforePath="$PROJECT_DIR$/src/Problem11.kt" afterPath="$PROJECT_DIR$/src/Problem11.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/Problem11.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="413">
-              <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -269,7 +268,7 @@
       <workItem from="1515055777380" duration="4606000" />
       <workItem from="1515112291646" duration="5529000" />
       <workItem from="1515125252076" duration="478000" />
-      <workItem from="1515139427291" duration="3583000" />
+      <workItem from="1515139427291" duration="3712000" />
     </task>
     <task id="LOCAL-00001" summary="Solved the problem 3.">
       <created>1514968665136</created>
@@ -348,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515125692211</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added grid array of integers.">
+      <created>1515143030126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1515143030126</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23665000" />
+    <option name="totallyTimeSpent" value="23794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -402,7 +408,8 @@
     <MESSAGE value="Finished problem 9" />
     <MESSAGE value="Added Problem10" />
     <MESSAGE value="Added initial work on Problem11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added initial work on Problem11" />
+    <MESSAGE value="Added grid array of integers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added grid array of integers." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,7 +748,7 @@
     <entry file="file://$PROJECT_DIR$/src/Problem11.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
-          <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>

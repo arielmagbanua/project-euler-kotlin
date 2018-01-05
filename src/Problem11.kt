@@ -59,7 +59,7 @@ class Problem11 {
 
                 // For right direction
                 var innerLimit = row + additionalIndexToMultiply
-                
+
 
             }
         }
