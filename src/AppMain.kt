@@ -51,7 +51,9 @@ fun showSolution(problemNumber: Int){
             println("The 10001st prime number is $answer")
         }
         8 -> {
-
+            val problem = Problem8()
+            val answer = problem.solve()
+            println("Largest Product of 13 adjacent numbers is $answer")
         }
         else -> {
             println("No solution for this problem yet!")
