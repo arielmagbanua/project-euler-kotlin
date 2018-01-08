@@ -68,6 +68,7 @@ fun showSolution(problemNumber: Int){
         11 -> {
             val problem = Problem11()
             val answer = problem.solve()
+            println("The greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid is $answer")
         }
         else -> {
             println("No solution for this problem yet!")

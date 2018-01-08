@@ -31,7 +31,7 @@ class Problem11 {
         var largestProduct = 0
 
         // 3 - for 4 indices
-        val additionalIndexToMultiply = 3
+        val additionalIndexToMultiply = 4
 
         val grid: Array<IntArray> = arrayOf( intArrayOf(8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8),
                                              intArrayOf(49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 4, 56, 62, 0),
@@ -53,14 +53,84 @@ class Problem11 {
                                              intArrayOf(20, 69, 36, 41, 72, 30, 23, 88, 34, 62, 99, 69, 82, 67, 59, 85, 74, 4, 36, 16),
                                              intArrayOf(20, 73, 35, 29, 78, 31, 90, 1, 74, 31, 49, 71, 48, 86, 81, 16, 23, 57, 5, 54),
                                              intArrayOf(1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48))
-
+        // For right direction
         for (row in 0 until grid.size) {
             for (col in 0 until grid[row].size) {
 
-                // For right direction
-                var innerLimit = row + additionalIndexToMultiply
+                // Check if the segment length is less than 4
+                val segmentLength = (grid.size + 1) - (col + 1)
+
+                if(segmentLength >= 4){
+                    var rightDirectionProduct = 1
+
+                    var innerLimit = col + additionalIndexToMultiply
+
+                    for(i in col until innerLimit){
+                        // println("$row, $i = "+grid[row][i])
+                        rightDirectionProduct *= grid[row][i]
+                    }
+
+                    // println(rightDirectionProduct)
+                    if(largestProduct<rightDirectionProduct){
+                        largestProduct = rightDirectionProduct
+                    }
+                }
 
 
+                // For right diagonal direction
+                var rightDiagonalProduct = 1
+                var completed = true
+
+                for(i in 0 until additionalIndexToMultiply){
+                    val rowIndex = row + i
+                    val colIndex = col + i
+
+                    if(rowIndex<grid.size && colIndex<grid[row].size){
+
+                        // println("$rowIndex, $colIndex = "+grid[rowIndex][colIndex])
+                        rightDiagonalProduct *= grid[rowIndex][colIndex]
+
+                    } else {
+                        completed = false
+                        break
+                    }
+                }
+
+                if(completed){
+                    //println(rightDiagonalProduct)
+                    if(largestProduct<rightDiagonalProduct){
+                        largestProduct = rightDiagonalProduct
+                    }
+                }
+
+                // For left diagonal direction
+                var leftDiagonalProduct = 1
+                completed = true
+            }
+        }
+
+        // For vertical direction
+        for (col in 0 until grid.size) {
+            for (row in 0 until 20) {
+
+                // Check if the segment length is less than 4
+                val segmentLength = (grid.size + 1) - (row + 1)
+
+                if(segmentLength >= 4){
+                    var verticalDirectionProduct = 1
+
+                    var innerLimit = row + additionalIndexToMultiply
+
+                    for(i in row until innerLimit){
+                        // println("$i, $col = "+grid[i][col])
+                        verticalDirectionProduct *= grid[i][col]
+                    }
+
+                    // println(verticalDirectionProduct)
+                    if(largestProduct<verticalDirectionProduct){
+                        largestProduct = verticalDirectionProduct
+                    }
+                }
             }
         }
 
