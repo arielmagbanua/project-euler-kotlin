@@ -87,7 +87,7 @@ class Problem11 {
 
                     if(rowIndex<grid.size && colIndex<grid[row].size){
 
-                        // println("$rowIndex, $colIndex = "+grid[rowIndex][colIndex])
+                        println("$rowIndex, $colIndex = "+grid[rowIndex][colIndex])
                         rightDiagonalProduct *= grid[rowIndex][colIndex]
 
                     } else {
@@ -103,9 +103,18 @@ class Problem11 {
                     }
                 }
 
-                // For left diagonal direction
+                // TODO: Reverse the main loop. For left diagonal direction
                 var leftDiagonalProduct = 1
                 completed = true
+
+                for(i in 0 until additionalIndexToMultiply){
+                    val rowIndex = row - i
+                    val colIndex = col - i
+
+                    if((rowIndex>=0 && colIndex>=0)&& (rowIndex<grid.size && colIndex<grid[row].size)){
+                        // println("$rowIndex, $colIndex = "+grid[rowIndex][colIndex])
+                    }
+                }
             }
         }
 
