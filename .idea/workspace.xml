@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7795747-47be-46db-8f10-b35e16194c0a" name="Default" comment="Finished the problem 11">
+    <list default="true" id="f7795747-47be-46db-8f10-b35e16194c0a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Problem12.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Problem11.kt" afterPath="$PROJECT_DIR$/src/Problem11.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +25,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppMain.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem12.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Problem12.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppMain.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppMain.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+            <state relative-caret-position="1089">
+              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -77,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/Problem10.kt" />
         <option value="$PROJECT_DIR$/src/AppMain.kt" />
         <option value="$PROJECT_DIR$/src/Problem11.kt" />
+        <option value="$PROJECT_DIR$/src/Problem12.kt" />
       </list>
     </option>
   </component>
@@ -380,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515576532372</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Finished the problem 11">
+      <created>1516350630075</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1516350630075</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -441,7 +459,8 @@
     <MESSAGE value="Added grid array of integers." />
     <MESSAGE value="Finished the right, left, and vertical product calculations for Problem 11." />
     <MESSAGE value="Debugging the left diagonal product." />
-    <option name="LAST_COMMIT_MESSAGE" value="Debugging the left diagonal product." />
+    <MESSAGE value="Finished the problem 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the problem 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -806,6 +825,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppMain.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem11.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2159">
@@ -814,10 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppMain.kt">
+    <entry file="file://$PROJECT_DIR$/src/Problem12.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
       </provider>
