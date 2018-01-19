@@ -71,7 +71,7 @@ class Problem11 {
                     }
 
                     // println(rightDirectionProduct)
-                    if(largestProduct<rightDirectionProduct){
+                    if(largestProduct < rightDirectionProduct){
                         largestProduct = rightDirectionProduct
                     }
                 }
@@ -87,7 +87,7 @@ class Problem11 {
 
                     if(rowIndex<grid.size && colIndex<grid[row].size){
 
-                        println("$rowIndex, $colIndex = "+grid[rowIndex][colIndex])
+                        // println("$rowIndex, $colIndex = "+grid[rowIndex][colIndex])
                         rightDiagonalProduct *= grid[rowIndex][colIndex]
 
                     } else {
@@ -97,22 +97,28 @@ class Problem11 {
                 }
 
                 if(completed){
-                    //println(rightDiagonalProduct)
-                    if(largestProduct<rightDiagonalProduct){
+                    // println(rightDiagonalProduct)
+                    if(largestProduct < rightDiagonalProduct){
                         largestProduct = rightDiagonalProduct
                     }
                 }
 
-                // TODO: Reverse the main loop. For left diagonal direction
                 var leftDiagonalProduct = 1
                 completed = true
 
                 for(i in 0 until additionalIndexToMultiply){
-                    val rowIndex = row - i
+                    val rowIndex = row + i
                     val colIndex = col - i
 
                     if((rowIndex>=0 && colIndex>=0)&& (rowIndex<grid.size && colIndex<grid[row].size)){
                         // println("$rowIndex, $colIndex = "+grid[rowIndex][colIndex])
+                        leftDiagonalProduct *= grid[rowIndex][colIndex]
+                    }
+                }
+
+                if(completed){
+                    if(largestProduct < leftDiagonalProduct){
+                        largestProduct = leftDiagonalProduct
                     }
                 }
             }
@@ -136,7 +142,7 @@ class Problem11 {
                     }
 
                     // println(verticalDirectionProduct)
-                    if(largestProduct<verticalDirectionProduct){
+                    if(largestProduct < verticalDirectionProduct){
                         largestProduct = verticalDirectionProduct
                     }
                 }
