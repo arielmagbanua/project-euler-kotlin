@@ -70,6 +70,11 @@ fun showSolution(problemNumber: Int){
             val answer = problem.solve()
             println("The greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid is $answer")
         }
+        12 -> {
+            val problem = Problem12()
+            val answer = problem.solve()
+            println("The value of the first triangle number to have over five hundred divisors is $answer")
+        }
         else -> {
             println("No solution for this problem yet!")
         }
