@@ -19,26 +19,41 @@
  * What is the value of the first triangle number to have over five hundred divisors?
  */
 class Problem12{
+
     fun solve(): Long {
         // val n = 1000
-        // val triangleNumber = 1000 * (1000 + 1) / 2
+        // val triangleNumber = 1000 * (1000 + 1) / 2 76576500
 
-        for(n in 2000L .. 10000000L){
+        for(n in 1 .. 14000){
             val triangleNumber = n * (n + 1L) / 2L
-            var counter = 0
 
-            for (i in 1L .. 500L){
-                if(triangleNumber%i == 0L){
-                    ++counter
-                }
-            }
+            val divisors = getNumberOfDivisors(triangleNumber)
 
-            // println(counter)
-            if(counter == 500){
+            if(divisors >= 500){
                 return triangleNumber
             }
         }
 
         return 0
+    }
+
+    fun getNumberOfDivisors(num: Long): Long {
+        var ret = 1L
+        var n = num
+
+        var factor = 2L
+        while (factor <= n){
+            var temp = 1L
+
+            while (n%factor == 0L){
+                n /= factor
+                temp++
+            }
+
+            ret *= temp
+            factor ++
+        }
+
+        return ret
     }
 }

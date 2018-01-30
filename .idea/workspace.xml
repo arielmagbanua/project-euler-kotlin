@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f7795747-47be-46db-8f10-b35e16194c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/project-euler-kotlin/AppMainKt.class" afterPath="$PROJECT_DIR$/out/production/project-euler-kotlin/AppMainKt.class" />
-      <change beforePath="$PROJECT_DIR$/src/AppMain.kt" afterPath="$PROJECT_DIR$/src/AppMain.kt" />
       <change beforePath="$PROJECT_DIR$/src/Problem12.kt" afterPath="$PROJECT_DIR$/src/Problem12.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +18,18 @@
       <file leaf-file-name="Problem12.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Problem12.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="448">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem8.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problem8.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -407,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516352534981</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Partial solution for Problem 12.">
+      <created>1517281380910</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1517281380910</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -415,6 +430,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -424,7 +440,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33804348" sideWeight="0.50319827" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28101802" sideWeight="0.4968017" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28101802" sideWeight="0.4968017" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" x="22" y="368" width="1876" height="303" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -469,7 +485,8 @@
     <MESSAGE value="Debugging the left diagonal product." />
     <MESSAGE value="Finished the problem 11" />
     <MESSAGE value="Added problem 12 class and problem statement." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added problem 12 class and problem statement." />
+    <MESSAGE value="Partial solution for Problem 12." />
+    <option name="LAST_COMMIT_MESSAGE" value="Partial solution for Problem 12." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,13 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem8.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem11.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -859,6 +869,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem8.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem10.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -869,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem12.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="448">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
